@@ -96,7 +96,14 @@ class ViewController: UIViewController {
             let vc = segue.destination as! InfoViewController
             // Pass the selected object to the new view controller.
             vc.infoText = "About the app"
-            vc.appDescrText = "DayFinder app helps you to find weekday for given date! This is my home work project"
+            vc.appDescrText = "DayFinder app helps you to find weekday for given date! This is my home work project."
+        }
+        
+        if segue.identifier == "dayFinderInstructions" {
+            let vcInstructions = segue.destination as! InstructionsViewController
+            
+            vcInstructions.instructionsTitleText = "How to use DayFinder?"
+            vcInstructions.instructionsDescriptionText = "Enter the number of a day, month and year, tap on the button FIND and learn the weekday of the given day."
         }
         
     }

@@ -16,6 +16,7 @@
 		08D614C026B71DF400DE4B69 /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D614BF26B71DF400DE4B69 /* AppearenceViewController.swift */; };
 		08D614C226B71EF700DE4B69 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D614C126B71EF700DE4B69 /* InfoViewController.swift */; };
 		08D614C526B72DA900DE4B69 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D614C426B72DA900DE4B69 /* Extension.swift */; };
+		08D614C726B73BDB00DE4B69 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D614C626B73BDB00DE4B69 /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		08D614BF26B71DF400DE4B69 /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
 		08D614C126B71EF700DE4B69 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		08D614C426B72DA900DE4B69 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		08D614C626B73BDB00DE4B69 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				08D614AC26B6CE9A00DE4B69 /* ViewController.swift */,
 				08D614C126B71EF700DE4B69 /* InfoViewController.swift */,
+				08D614C626B73BDB00DE4B69 /* InstructionsViewController.swift */,
 				08D614BF26B71DF400DE4B69 /* AppearenceViewController.swift */,
 			);
 			path = Controller;
@@ -183,6 +186,7 @@
 				08D614A926B6CE9A00DE4B69 /* AppDelegate.swift in Sources */,
 				08D614C526B72DA900DE4B69 /* Extension.swift in Sources */,
 				08D614AB26B6CE9A00DE4B69 /* SceneDelegate.swift in Sources */,
+				08D614C726B73BDB00DE4B69 /* InstructionsViewController.swift in Sources */,
 				08D614C226B71EF700DE4B69 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
