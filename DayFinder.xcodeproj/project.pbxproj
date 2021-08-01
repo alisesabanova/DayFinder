@@ -56,15 +56,39 @@
 		08D614A726B6CE9A00DE4B69 /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
-				08D614A826B6CE9A00DE4B69 /* AppDelegate.swift */,
-				08D614AA26B6CE9A00DE4B69 /* SceneDelegate.swift */,
-				08D614AC26B6CE9A00DE4B69 /* ViewController.swift */,
-				08D614AE26B6CE9A00DE4B69 /* Main.storyboard */,
+				08D614BC26B6CF4200DE4B69 /* AppDelegate */,
+				08D614BD26B6CF5500DE4B69 /* Controller */,
+				08D614BE26B6CF6900DE4B69 /* View */,
 				08D614B126B6CE9B00DE4B69 /* Assets.xcassets */,
-				08D614B326B6CE9B00DE4B69 /* LaunchScreen.storyboard */,
 				08D614B626B6CE9B00DE4B69 /* Info.plist */,
 			);
 			path = DayFinder;
+			sourceTree = "<group>";
+		};
+		08D614BC26B6CF4200DE4B69 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				08D614A826B6CE9A00DE4B69 /* AppDelegate.swift */,
+				08D614AA26B6CE9A00DE4B69 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		08D614BD26B6CF5500DE4B69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				08D614AC26B6CE9A00DE4B69 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		08D614BE26B6CF6900DE4B69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08D614AE26B6CE9A00DE4B69 /* Main.storyboard */,
+				08D614B326B6CE9B00DE4B69 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
