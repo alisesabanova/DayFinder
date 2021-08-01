@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         dateFormatter.locale = Locale(identifier: "lv_LV")
         dateFormatter.dateFormat = "EEEE"
         
-
+        
         
         switch findButton.titleLabel?.text {
         case "Find":
@@ -84,8 +84,27 @@ class ViewController: UIViewController {
             popUp.addAction(okButton)
             self.present(popUp, animated: true, completion: nil)
         }
-        }
     }
     
+    
+    
+    // MARK: - Navigation
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "dayFinder"{
+            // Get the new view controller using segue.destination.
+            let vc = segue.destination as! InfoViewController
+            // Pass the selected object to the new view controller.
+            vc.infoText = "About the app"
+            vc.appDescrText = "DayFinder app helps you to find weekday for given date! This is my home work project"
+        }
+        
+    }
+    
+    
+    
+    
+}
+
 
 
