@@ -176,7 +176,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="Vta-fA-9rQ" kind="push" identifier="dayFinderInstructions" id="kfm-Rx-cwj"/>
+                                                    <segue destination="Vta-fA-9rQ" kind="show" identifier="dayFinderInstructions" id="kfm-Rx-cwj"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -206,7 +206,7 @@
                         <barButtonItem key="leftBarButtonItem" image="info.circle.fill" catalog="system" id="aT8-RE-Kss">
                             <color key="tintColor" systemColor="labelColor"/>
                             <connections>
-                                <segue destination="jWf-Cb-G2d" kind="push" identifier="dayFinder" id="yIw-zm-XAE"/>
+                                <segue destination="jWf-Cb-G2d" kind="show" identifier="dayFinder" id="yIw-zm-XAE"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="moon.circle.fill" catalog="system" id="COY-Xc-dTL">
